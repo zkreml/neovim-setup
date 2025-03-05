@@ -25,12 +25,14 @@ které mi pomohou efektivně pracovat s tímto editorem.
 
 - **Automatizovaný skript pro rychlou instalaci**  
 
-# Neovim
+## Neovim
 
 ### Ovládání Neovimu - Základy
-# 📖 Neovim & LazyVim Základy
+
+## 📖 Neovim & LazyVim Základy
 
 ## 🔹 1. Módy v Neovimu
+
 | Mód           | Aktivace | Popis |
 |--------------|---------|--------|
 | **Normální** | `Esc` | Výchozí režim – pohyb, mazání, kopírování. |
@@ -41,6 +43,7 @@ které mi pomohou efektivně pracovat s tímto editorem.
 ---
 
 ## 🔹 2. Základní příkazy
+
 | Příkaz | Popis |
 |--------|-------|
 | `:q` | Zavře Neovim. |
@@ -55,6 +58,7 @@ které mi pomohou efektivně pracovat s tímto editorem.
 ---
 
 ## 🔹 3. Pohyb v souboru
+
 | Klávesa | Akce |
 |---------|------|
 | `h`, `j`, `k`, `l` | Pohyb kurzoru (←, ↓, ↑, →). |
@@ -65,9 +69,11 @@ které mi pomohou efektivně pracovat s tímto editorem.
 ---
 
 ## 🔹 4. Instalace LazyVim
+
 ```sh
 mv ~/.config/nvim ~/.config/nvim.backup  # Záloha starého nastavení
 ```
+
 ```bash
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
@@ -75,9 +81,11 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 ``` bash
 nvim  # První spuštění
 ```
-# 📖 LazyVim – Základní klávesové zkratky
+
+## 📖 LazyVim – Základní klávesové zkratky
 
 ## 🖥️ Navigace & Správa souborů
+
 | Klávesa         | Akce |
 |----------------|------|
 | `<leader> f f` | Otevře **Telescope** pro vyhledávání souborů. |
@@ -86,6 +94,7 @@ nvim  # První spuštění
 | `<leader> e`   | Otevře **file explorer (nvim-tree)**. |
 
 ## 📑 Práce se soubory & Panely
+
 | Klávesa         | Akce |
 |----------------|------|
 | `<leader> w`   | Uloží soubor (`:w`). |
@@ -96,6 +105,7 @@ nvim  # První spuštění
 | `<leader> b p` | Přepne na předchozí buffer. |
 
 ## 🔍 Pohyb v textu
+
 | Klávesa         | Akce |
 |----------------|------|
 | `H`, `L`       | Skok na začátek/konec řádku. |
@@ -104,6 +114,7 @@ nvim  # První spuštění
 | `<leader> s s` | Hledání a nahrazování (`Spectre`). |
 
 ## 🛠️ Kódování & Formátování
+
 | Klávesa         | Akce |
 |----------------|------|
 | `<leader> l a` | Otevře **LSP diagnostiku**. |
@@ -113,6 +124,7 @@ nvim  # První spuštění
 | `<leader> l h` | Zobrazí dokumentaci k funkci. |
 
 ## 🖊️ Editace textu
+
 | Klávesa | Akce |
 |---------|------|
 | `J`     | Spojí řádky dohromady. |
@@ -123,6 +135,7 @@ nvim  # První spuštění
 | `P`     | Vloží text **před** kurzor. |
 
 ## 🖥️ Okna & Panely
+
 | Klávesa         | Akce |
 |----------------|------|
 | `<leader> w s` | Horizontální split (`:split`). |
@@ -131,6 +144,7 @@ nvim  # První spuštění
 | `<leader> w q` | Zavře aktuální okno. |
 
 ## 📂 Git integrace
+
 | Klávesa         | Akce |
 |----------------|------|
 | `<leader> g g` | Otevře **Lazygit** (pokud je nainstalovaný). |
@@ -139,6 +153,7 @@ nvim  # První spuštění
 | `<leader> g c` | Otevře seznam commitů. |
 
 ## 🎨 UI & Uživatelské rozhraní
+
 | Klávesa         | Akce |
 |----------------|------|
 | `<leader> u i` | Přepínání mezi světlým/tmavým módem. |
@@ -148,6 +163,6 @@ nvim  # První spuštění
 ---
 
 **📝 Poznámky:**
+
 - **`<leader>` je mezerník** (výchozí nastavení v LazyVim).
 - Pokud nějaká klávesová zkratka nefunguje, může být potřeba ji aktivovat v konfiguraci.
-
