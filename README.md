@@ -160,6 +160,19 @@ nvim  # První spuštění
 | `<leader> u n` | Přepíná číslování řádků (absolutní/relativní). |
 | `<leader> u w` | Přepíná zobrazení **neviditelných znaků**. |
 
+## ✨ Další užitečné zkratky v NeoTree
+
+| Klávesa | Akce                         |
+|---------|------------------------------|
+| `a`     | Přidat soubor nebo složku    |
+| `d`     | Smazat soubor                |
+| `r`     | Přejmenovat                  |
+| `yy`    | Kopírovat                    |
+| `p`     | Vložit                       |
+| `x`     | Vyjmout                      |
+| `TAB`   | Rozbalit/sbalit složku       |
+| `q`     | Zavřít NeoTree               |
+
 ---
 
 **📝 Poznámky:**
