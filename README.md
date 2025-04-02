@@ -15,6 +15,31 @@ které mi pomohou efektivně pracovat s tímto editorem.
 ✅ Sbírat užitečné klávesové zkratky a příkazy  
 ✅ Postupně rozšiřovat o nové funkce a vylepšení  
 
+## 📁 Struktura
+
+```text
+.
+├── init.lua
+├── lazy-lock.json
+├── lazyvim.json
+├── LICENSE
+├── lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       └── example.lua
+├── README.md
+├── stylua.toml
+└── docs
+    ├── git.md
+    └── neovim.md
+```
+
+Složka `docs/` obsahuje taháky a poznámky k práci s Neovimem, Gitem a dalším nástrojům.
+
 ---
 
 ## 📌 Co bude součástí?
