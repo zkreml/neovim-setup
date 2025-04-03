@@ -66,9 +66,9 @@ S LazyVim zkratkou (pokud nastaveno):
 | ↑ / ↓   | Pohyb v seznamu     |
 | Enter   | Detaily nebo akce   |
 | c       | Commit              |
-| p       | Push                |
+| p       | Pull               |
 | f       | Fetch               |
-| P       | Pull                |
+| P       | Push              |
 | q       | Zavření LazyGit     |
 | h       | Nápověda            |
 
